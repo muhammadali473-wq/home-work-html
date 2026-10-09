@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    background: blue;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px 15px;
+   border: 2px solid darkred;
+}
+
+nav {
+    display: flex;
+    gap: 45px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+}
+
+.position {
+    height: 485px;
+    background: #09152f;
+    position: relative;
+    padding-top: 30px;
+}
+
+h1 {
+    background: white;
+    color: black;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px #777;
+}
+
+.example {
+    position: relative;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.green {
+    position: absolute;
+    background: #19ff00;
+    color: red;
+    width: 17%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.red {
+    position: absolute;
+    background: red;
+    color: white;
+    width: 16.5%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 10px 20px #333;
+}
+
+.green1 {
+    left: 6%;
+    top: 110px;
+}
+
+.red1 {
+    left: 14.3%;
+    top: 30px;
+}
+
+.green2 {
+    left: 41.3%;
+    top: 110px;
+}
+
+.red2 {
+    left: 35%;
+    top: 30px;
+    width: 29%;
+    border-radius: 100px;
+}
+
+.green3 {
+    right: 7%;
+    top: 110px;
+}
+
+.red3 {
+    right: 16.2%;
+    top: 30px;
+}
+
+.information {
+    padding: 65px 6% 80px;
+}
+
+.information h1 {
+    margin-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.card {
+    background: #812727;
+    width: 33.33%;
+    min-height: 270px;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 45px;
+    text-shadow: 0 0 5px white;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.small-boxes {
+    background: white;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    text-align: left;
+    height: 85px;
+    padding: 5px;
+}
+
+.small-boxes div {
+    background: blue;
+    flex: 1;
+    height: 65px;
+}
+
+.small-boxes div:nth-child(2) {
+    background: green;
+    margin-top: 15px;
+}
+
+.absolute-boxes {
+    background: white;
+    height: 110px;
+    display: flex;
+    padding: 20px;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+}
+
+.absolute-boxes div {
+    background: red;
+    flex: 1;
+    border: 1px dotted black;
+}
+
+.absolute-boxes div:first-child {
+    background: green;
+    margin-top: 10px;
+}
+
+footer {
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-menu {
+    display: flex;
+    gap: 80px;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+}
+
+ 
+    header {
+        height: auto;
+        padding: 25px 10px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .position {
+        height: 400px;
+    }
+
+    h1 {
+        width: 80%;
+        font-size: 32px;
+    }
+
+    .example {
+        margin-top: 50px;
+    }
+
+    .green {
+        height: 120px;
+    }
+
+    .red {
+        height: 120px;
+    }
+
+    .information {
+        padding: 40px 15px;
+    }
+
+    .information h1 {
+        margin-bottom: 40px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .bottom-menu {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
